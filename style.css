@@ -1,0 +1,151 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+/* Sematics */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 999;
+}
+
+nav {
+    margin-bottom: ;
+}
+
+a {
+    color: seashell;
+}
+
+/* Nav & Logo */
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.inline-flex {
+    display: inline-flex;
+    max-height: 69px;
+}
+
+.nav {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    text-decoration: underline;
+    list-style: none;
+
+
+
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+/* Banner section */
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 69px auto 0px auto;
+    /* margin-top: 69px; */
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+.mission {
+    width: 100%;
+    background-color: black;
+}
+
+.mission h2, .mission h4 {
+    margin: 10px;
+}
+
+
+/* Main/Tea section */
+
+.main-wrap {
+    margin: 100px auto;
+    max-width: 1000px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tea {
+    margin: 0px 10px 10px;
+}
+
+.tea img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea h4 {
+    margin: 10px;
+}
+
+/* Location section */
+
+.location {
+    margin: 0 auto;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+}
+
+.location h2 {
+    margin-bottom: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adress-container {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.margin-r-40 {
+    margin-right: 40px;
+}
+
+/* Footer */
+
+footer {
+    height: 200px;
+    margin: 0px;
+}
+
+
+.cc {
+    text-align: left;
+    margin-left: 20px;
+}
